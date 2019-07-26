@@ -16,5 +16,6 @@ const useLocalstorage = (key, initialValue) {
     return [storedValue, setValue]
 }
 // useLocalStorage (key, initialValue) ----> [value, setValue]
+// you can not stringify a function.
 //useState(initialValue) =====> [value, setValue]
 export default useLocalStorage
